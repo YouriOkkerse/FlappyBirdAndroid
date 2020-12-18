@@ -68,7 +68,7 @@ public class GameManager : MonoBehaviour
             medalHandler.SetMedal(3);
             medalCanvas.SetActive(true);
         }
-        else if (Score.score >= 50 && Score.score < 100)
+        else if (Score.score >= 50)
         {
             medalHandler.SetMedal(4);
             medalCanvas.SetActive(true);
